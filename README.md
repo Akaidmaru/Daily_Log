@@ -34,3 +34,4 @@ When you run the code, you just keep adding the information
 
 - Need to create a simple GUI
 - Need to check if it is possible to factorize code.
+- Check why only works on common terminal and not in Visual studio terminal.
