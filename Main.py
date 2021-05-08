@@ -6,9 +6,6 @@ wb = openpyxl.Workbook()
 hoja = wb.active
 hoja.append(('Start Time', 'End Time', 'Phone Number', 'Status', 'Policy', 'Note'))
 
-policy = '-'
-report = {()}
-
 def agregar_valores():  # FUNCTION TO ADD THE LAST VALUES OF THE CLAIM AND SAVE.
     for r in result:
         hoja.append(r)
