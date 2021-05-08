@@ -1,11 +1,7 @@
 # EXPORT DATETIME SO I CAN GET THE EXACT TIME OF THE CALL
 # CREATE DICTIONARY TO WORK
-from datetime import datetime as dt
-import pandas as pd 
 import openpyxl
 import time
-dt = pd.Timestamp('2021-09-01 12:44:12')
-dt.round('min')
 wb = openpyxl.Workbook()
 hoja = wb.active
 hoja.append(('Start Time', 'End Time', 'Phone Number', 'Status', 'Policy', 'Note'))
